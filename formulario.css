@@ -1,0 +1,94 @@
+body{
+margin: 40px;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.cabecalho-titulo{
+    color:#FFD000;
+    font-size:50px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+.lista{
+    display: flex;
+    gap: 10px;
+}
+.lista > li > a{
+    font-size: 18px;
+}
+.lista > li > a:hover{
+    color:tomato;
+}
+.secao{
+    display: flex;
+    justify-content: space-around
+
+}
+.desenvolvedor{
+    display: flex;
+    width:45%;
+    border: 2px solid #FFD000;
+    border-radius: 10px;
+}
+.formula{
+    width:30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius:10px;
+    padding:15px;
+    
+    
+
+}
+.label{
+    display:block;
+    font-size:19px;
+    margin-bottom: 8px;
+    align-self: flex-start;
+}
+.input{
+    border: 1px solid black;
+    display:block;
+    border-radius: 10px;
+    padding:5px;
+    width:90%;
+    align-self: flex-start;
+}
+.botao{
+    margin-top: 8px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color:#FFD000;
+    color:black;
+    font-size:18px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 45px;
+    background: darkgray;
+    padding:15px;
+    border: 1px solid black;
+    height:80px
+}
+
+.lista2{
+    display: flex;
+    gap: 10px;
+    margin-left:10px;
+}
+.lista2 > li > a{
+    font-size: 18px;
+}
+.lista2 > li > a:hover{
+    color:tomato;
+}
